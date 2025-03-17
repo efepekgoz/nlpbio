@@ -1,0 +1,285 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red193\green193\blue193;\red193\green193\blue193;
+\red193\green193\blue193;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c80088\c80088\c79988;\cssrgb\c80000\c80000\c80000;
+\cssrgb\c80088\c80088\c79988;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16400\viewh13040\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 RNN\
+\cf4 \strokec4 \
+Epoch 1: Train Loss: 0.5606, Train Acc: 81.39%, Train F1: 0.3622, Val Loss: 0.4122, Val Acc: 86.30%, Val F1: 0.4356\
+Epoch 2: Train Loss: 0.4101, Train Acc: 84.52%, Train F1: 0.5205, Val Loss: 0.3807, Val Acc: 86.72%, Val F1: 0.4091\
+Epoch 3: Train Loss: 0.3534, Train Acc: 86.70%, Train F1: 0.6005, Val Loss: 0.3549, Val Acc: 88.24%, Val F1: 0.5085\
+Epoch 4: Train Loss: 0.3017, Train Acc: 88.69%, Train F1: 0.6711, Val Loss: 0.3349, Val Acc: 88.68%, Val F1: 0.5702\
+Epoch 5: Train Loss: 0.2462, Train Acc: 90.94%, Train F1: 0.7394, Val Loss: 0.4032, Val Acc: 84.54%, Val F1: 0.5990\
+Epoch 6: Train Loss: 0.1941, Train Acc: 93.05%, Train F1: 0.8000, Val Loss: 0.3582, Val Acc: 88.24%, Val F1: 0.6019\
+Epoch 7: Train Loss: 0.1429, Train Acc: 95.12%, Train F1: 0.8592, Val Loss: 0.4030, Val Acc: 86.48%, Val F1: 0.5906\
+Epoch 8: Train Loss: 0.1120, Train Acc: 96.19%, Train F1: 0.8909, Val Loss: 0.4226, Val Acc: 86.32%, Val F1: 0.6031\
+Epoch 9: Train Loss: 0.0776, Train Acc: 97.53%, Train F1: 0.9268, Val Loss: 0.4563, Val Acc: 88.10%, Val F1: 0.6035\
+Epoch 10: Train Loss: 0.0570, Train Acc: 98.09%, Train F1: 0.9426, Val Loss: 0.4880, Val Acc: 86.68%, Val F1: 0.5996\
+\
+Test Loss: 0.5625, Test Accuracy: 85.20%, Test F1(true): 0.5578\
+Test Loss: 0.5625, Test Accuracy: 85.20%, Test F1: 0.5349\
+\
+ Last 10 Classification Errors on Test Set:\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: 'motor', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'functional', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'classification', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'scale', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-AC'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'Measure', Predicted: 'B-LF', Correct: 'I-LF'\
+\
+\cf2 \strokec3 Fasttext\cf4 \strokec4 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf4 \strokec4 Epoch 1: Train Loss: 0.5579, Train Acc: 81.95%, Train F1: 0.4215, Val Loss: 0.3496, Val Acc: 88.56%, Val F1: 0.5384\
+Epoch 2: Train Loss: 0.2577, Train Acc: 90.94%, Train F1: 0.7440, Val Loss: 0.3337, Val Acc: 89.70%, Val F1: 0.6027\
+Epoch 3: Train Loss: 0.1497, Train Acc: 94.84%, Train F1: 0.8594, Val Loss: 0.3580, Val Acc: 89.96%, Val F1: 0.6232\
+Epoch 4: Train Loss: 0.0984, Train Acc: 96.73%, Train F1: 0.9104, Val Loss: 0.3974, Val Acc: 89.78%, Val F1: 0.6144\
+Epoch 5: Train Loss: 0.0698, Train Acc: 97.52%, Train F1: 0.9336, Val Loss: 0.4174, Val Acc: 90.10%, Val F1: 0.6363\
+Epoch 6: Train Loss: 0.0514, Train Acc: 98.22%, Train F1: 0.9522, Val Loss: 0.4306, Val Acc: 90.06%, Val F1: 0.6325\
+Epoch 7: Train Loss: 0.0405, Train Acc: 98.55%, Train F1: 0.9605, Val Loss: 0.4778, Val Acc: 89.68%, Val F1: 0.6162\
+Epoch 8: Train Loss: 0.0312, Train Acc: 98.94%, Train F1: 0.9720, Val Loss: 0.5997, Val Acc: 89.22%, Val F1: 0.5675\
+Epoch 9: Train Loss: 0.0280, Train Acc: 99.02%, Train F1: 0.9740, Val Loss: 0.4890, Val Acc: 90.20%, Val F1: 0.6421\
+Epoch 10: Train Loss: 0.0199, Train Acc: 99.31%, Train F1: 0.9815, Val Loss: 0.5004, Val Acc: 90.40%, Val F1: 0.6602\
+\
+Test Loss: 0.5885, Test Accuracy: 89.20%, Test F1(true): 0.5845\
+Test Loss: 0.5885, Test Accuracy: 89.20%, Test F1: 0.5659\
+\
+ Last 10 Classification Errors on Test Set:\
+Token: 'motor', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'functional', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'classification', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'scale', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-AC'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'Measure', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-AC'\
+\
+\cf2 \strokec3 SGD Cent\cf4 \strokec4 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs20 \cf2 \outl0\strokewidth0 Epoch 1: Train Loss: 0.8601, Train Acc: 75.42%, Train F1: 0.2696, Val Loss: 0.4976, Val Acc: 85.08%, Val F1: 0.2769\
+Epoch 2: Train Loss: 0.6082, Train Acc: 81.23%, Train F1: 0.2681, Val Loss: 0.4820, Val Acc: 85.20%, Val F1: 0.2316\
+Epoch 3: Train Loss: 0.5780, Train Acc: 81.66%, Train F1: 0.2714, Val Loss: 0.4755, Val Acc: 85.20%, Val F1: 0.2331\
+Epoch 4: Train Loss: 0.5694, Train Acc: 81.91%, Train F1: 0.2759, Val Loss: 0.4597, Val Acc: 85.24%, Val F1: 0.2376\
+Epoch 5: Train Loss: 0.5652, Train Acc: 81.86%, Train F1: 0.2826, Val Loss: 0.4492, Val Acc: 85.32%, Val F1: 0.2463\
+Epoch 6: Train Loss: 0.5532, Train Acc: 81.99%, Train F1: 0.2879, Val Loss: 0.4426, Val Acc: 85.38%, Val F1: 0.2551\
+Epoch 7: Train Loss: 0.5526, Train Acc: 82.13%, Train F1: 0.2947, Val Loss: 0.4385, Val Acc: 85.52%, Val F1: 0.2644\
+Epoch 8: Train Loss: 0.5462, Train Acc: 82.05%, Train F1: 0.2969, Val Loss: 0.4331, Val Acc: 85.46%, Val F1: 0.2641\
+Epoch 9: Train Loss: 0.5360, Train Acc: 82.29%, Train F1: 0.3067, Val Loss: 0.4358, Val Acc: 85.52%, Val F1: 0.2619\
+Epoch 10: Train Loss: 0.5365, Train Acc: 82.31%, Train F1: 0.3095, Val Loss: 0.4301, Val Acc: 85.50%, Val F1: 0.2666
+\fs28 \
+\
+Test Loss: 0.4264, Test Accuracy: 86.22%, Test F1(true): 0.2927\
+
+\fs20 \
+Token: 'motor', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'functional', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'classification', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'scale', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-AC'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'Measure', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-AC'\
+\
+Adam Hinge\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf4 \outl0\strokewidth0 \strokec4 poch 1: Train Loss: 0.3966, Train Acc: 80.45%, Train F1: 0.2347, Val Loss: 0.3017, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 2: Train Loss: 0.3514, Train Acc: 82.43%, Train F1: 0.2259, Val Loss: 0.3017, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 3: Train Loss: 0.3494, Train Acc: 82.43%, Train F1: 0.2259, Val Loss: 0.3017, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 4: Train Loss: 0.3527, Train Acc: 82.43%, Train F1: 0.2259, Val Loss: 0.3017, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 5: Train Loss: 0.3523, Train Acc: 82.43%, Train F1: 0.2259, Val Loss: 0.3017, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 6: Train Loss: 0.3524, Train Acc: 82.43%, Train F1: 0.2259, Val Loss: 0.3017, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 7: Train Loss: 0.3527, Train Acc: 82.43%, Train F1: 0.2259, Val Loss: 0.3017, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 8: Train Loss: 0.3517, Train Acc: 82.43%, Train F1: 0.2259, Val Loss: 0.3017, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 9: Train Loss: 0.3509, Train Acc: 82.43%, Train F1: 0.2259, Val Loss: 0.3017, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 10: Train Loss: 0.3532, Train Acc: 82.43%, Train F1: 0.2259, Val Loss: 0.3017, Val Acc: 85.22%, Val F1: 0.2301\
+\pard\pardeftab720\partightenfactor0
+\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf4 Test Loss: 0.2890, Test Accuracy: 85.84%, Test F1(true): 0.2310\
+Test Loss: 0.2890, Test Accuracy: 85.84%, Test F1: 0.2310\
+\
+ Last 10 Classification Errors on Test Set:\
+Token: 'motor', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'functional', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'classification', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'scale', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-AC'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'Measure', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-AC'\
+\
+SGD Hinge\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs20 \cf2 \outl0\strokewidth0 Epoch 1: Train Loss: 0.5673, Train Acc: 69.34%, Train F1: 0.2586, Val Loss: 0.3020, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 2: Train Loss: 0.3549, Train Acc: 82.30%, Train F1: 0.2268, Val Loss: 0.3019, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 3: Train Loss: 0.3526, Train Acc: 82.34%, Train F1: 0.2267, Val Loss: 0.3019, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 4: Train Loss: 0.3553, Train Acc: 82.36%, Train F1: 0.2266, Val Loss: 0.3018, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 5: Train Loss: 0.3549, Train Acc: 82.37%, Train F1: 0.2265, Val Loss: 0.3018, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 6: Train Loss: 0.3546, Train Acc: 82.37%, Train F1: 0.2263, Val Loss: 0.3018, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 7: Train Loss: 0.3549, Train Acc: 82.37%, Train F1: 0.2268, Val Loss: 0.3018, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 8: Train Loss: 0.3537, Train Acc: 82.38%, Train F1: 0.2267, Val Loss: 0.3018, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 9: Train Loss: 0.3528, Train Acc: 82.37%, Train F1: 0.2258, Val Loss: 0.3018, Val Acc: 85.22%, Val F1: 0.2301\
+Epoch 10: Train Loss: 0.3543, Train Acc: 82.40%, Train F1: 0.2267, Val Loss: 0.3018, Val Acc: 85.22%, Val F1: 0.2301
+\fs28 \
+\
+Test Loss: 0.2891, Test Accuracy: 85.84%, Test F1(true): 0.2310\
+\
+
+\fs20 Token: 'motor', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'functional', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'classification', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'scale', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-AC'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'Measure', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-AC'\
+\
+0.01\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 Epoch 1: Train Loss: 0.6260, Train Acc: 79.63%, Train F1: 0.3843, Val Loss: 0.3437, Val Acc: 88.16%, Val F1: 0.5015\
+Epoch 2: Train Loss: 0.3683, Train Acc: 86.45%, Train F1: 0.6012, Val Loss: 0.2793, Val Acc: 90.38%, Val F1: 0.6988\
+Epoch 3: Train Loss: 0.2878, Train Acc: 89.33%, Train F1: 0.7065, Val Loss: 0.2437, Val Acc: 92.24%, Val F1: 0.7286\
+Epoch 4: Train Loss: 0.2344, Train Acc: 91.56%, Train F1: 0.7728, Val Loss: 0.2288, Val Acc: 92.36%, Val F1: 0.7502\
+Epoch 5: Train Loss: 0.1887, Train Acc: 93.21%, Train F1: 0.8169, Val Loss: 0.2240, Val Acc: 92.72%, Val F1: 0.7766\
+Epoch 6: Train Loss: 0.1564, Train Acc: 94.44%, Train F1: 0.8531, Val Loss: 0.2468, Val Acc: 92.68%, Val F1: 0.7556\
+Epoch 7: Train Loss: 0.1374, Train Acc: 95.08%, Train F1: 0.8670, Val Loss: 0.2279, Val Acc: 93.12%, Val F1: 0.7865\
+Epoch 8: Train Loss: 0.1099, Train Acc: 96.41%, Train F1: 0.9027, Val Loss: 0.2439, Val Acc: 93.00%, Val F1: 0.7784\
+Epoch 9: Train Loss: 0.0926, Train Acc: 96.86%, Train F1: 0.9153, Val Loss: 0.2276, Val Acc: 93.24%, Val F1: 0.7924\
+Epoch 10: Train Loss: 0.0836, Train Acc: 97.14%, Train F1: 0.9233, Val Loss: 0.2399, Val Acc: 93.06%, Val F1: 0.7862\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf2 Test Loss: 0.3071, Test Accuracy: 91.06%, Test F1(true): 0.7496\
+\pard\pardeftab720\partightenfactor0
+
+\fs20 \cf2 \
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: 'motor', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'functional', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'classification', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'scale', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'Measure', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-AC'\
+\
+0.001\
+\
+Epoch 1: Train Loss: 0.7251, Train Acc: 77.14%, Train F1: 0.2781, Val Loss: 0.4481, Val Acc: 85.30%, Val F1: 0.2594\
+Epoch 2: Train Loss: 0.5156, Train Acc: 82.38%, Train F1: 0.3475, Val Loss: 0.3809, Val Acc: 86.28%, Val F1: 0.3438\
+Epoch 3: Train Loss: 0.4548, Train Acc: 83.56%, Train F1: 0.4454, Val Loss: 0.3448, Val Acc: 88.08%, Val F1: 0.4886\
+Epoch 4: Train Loss: 0.4172, Train Acc: 85.03%, Train F1: 0.5121, Val Loss: 0.3314, Val Acc: 88.86%, Val F1: 0.6045\
+Epoch 5: Train Loss: 0.3921, Train Acc: 85.85%, Train F1: 0.5615, Val Loss: 0.3071, Val Acc: 89.80%, Val F1: 0.6233\
+Epoch 6: Train Loss: 0.3650, Train Acc: 86.85%, Train F1: 0.6112, Val Loss: 0.3031, Val Acc: 90.14%, Val F1: 0.6475\
+Epoch 7: Train Loss: 0.3537, Train Acc: 87.19%, Train F1: 0.6230, Val Loss: 0.2937, Val Acc: 90.28%, Val F1: 0.6490\
+Epoch 8: Train Loss: 0.3322, Train Acc: 88.01%, Train F1: 0.6535, Val Loss: 0.2851, Val Acc: 90.66%, Val F1: 0.6784\
+Epoch 9: Train Loss: 0.3175, Train Acc: 88.53%, Train F1: 0.6706, Val Loss: 0.2812, Val Acc: 90.78%, Val F1: 0.6845\
+Epoch 10: Train Loss: 0.3046, Train Acc: 88.83%, Train F1: 0.6848, Val Loss: 0.2759, Val Acc: 90.92%, Val F1: 0.6744\
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf2 \
+Test Loss: 0.2680, Test Accuracy: 91.02%, Test F1(true): 0.7209
+\fs20 \
+\
+Token: 'Questionnaire', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: 'motor', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'functional', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'classification', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'scale', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'Measure', Predicted: 'B-O', Correct: 'I-LF'\
+\
+16\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf4 \outl0\strokewidth0 \strokec4 Epoch 1: Train Loss: 0.5282, Train Acc: 81.90%, Train F1: 0.3990, Val Loss: 0.3619, Val Acc: 87.46%, Val F1: 0.4293\
+Epoch 2: Train Loss: 0.3835, Train Acc: 86.00%, Train F1: 0.5823, Val Loss: 0.2970, Val Acc: 90.50%, Val F1: 0.6550\
+Epoch 3: Train Loss: 0.3284, Train Acc: 88.01%, Train F1: 0.6657, Val Loss: 0.2734, Val Acc: 91.02%, Val F1: 0.6865\
+Epoch 4: Train Loss: 0.2876, Train Acc: 89.39%, Train F1: 0.7067, Val Loss: 0.2557, Val Acc: 91.92%, Val F1: 0.7265\
+Epoch 5: Train Loss: 0.2694, Train Acc: 90.23%, Train F1: 0.7299, Val Loss: 0.2469, Val Acc: 91.82%, Val F1: 0.7464\
+Epoch 6: Train Loss: 0.2413, Train Acc: 91.10%, Train F1: 0.7589, Val Loss: 0.2332, Val Acc: 92.46%, Val F1: 0.7535\
+Epoch 7: Train Loss: 0.2138, Train Acc: 92.07%, Train F1: 0.7843, Val Loss: 0.2323, Val Acc: 92.08%, Val F1: 0.7407\
+Epoch 8: Train Loss: 0.1929, Train Acc: 92.93%, Train F1: 0.8099, Val Loss: 0.2301, Val Acc: 92.82%, Val F1: 0.7604\
+Epoch 9: Train Loss: 0.1722, Train Acc: 93.79%, Train F1: 0.8302, Val Loss: 0.2442, Val Acc: 91.74%, Val F1: 0.7587\
+Epoch 10: Train Loss: 0.1599, Train Acc: 94.27%, Train F1: 0.8439, Val Loss: 0.2283, Val Acc: 92.48%, Val F1: 0.7696\
+\pard\pardeftab720\partightenfactor0
+\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf4 Test Loss: 0.2565, Test Accuracy: 90.90%, Test F1(true): 0.7578\
+Test Loss: 0.2565, Test Accuracy: 90.90%, Test F1: 0.7121\
+\
+ Last 10 Classification Errors on Test Set:\
+Token: 'Care', Predicted: 'B-AC', Correct: 'B-LF'\
+Token: 'and', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'Questionnaire', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: 'classification', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'scale', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+\
+64\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs20 \cf2 \outl0\strokewidth0 Epoch 1: Train Loss: 0.7538, Train Acc: 76.28%, Train F1: 0.2992, Val Loss: 0.4613, Val Acc: 85.24%, Val F1: 0.2409\
+Epoch 2: Train Loss: 0.5023, Train Acc: 82.64%, Train F1: 0.3789, Val Loss: 0.3652, Val Acc: 87.02%, Val F1: 0.4069\
+Epoch 3: Train Loss: 0.4295, Train Acc: 84.67%, Train F1: 0.5111, Val Loss: 0.3272, Val Acc: 88.96%, Val F1: 0.5638\
+Epoch 4: Train Loss: 0.3862, Train Acc: 85.99%, Train F1: 0.5696, Val Loss: 0.3097, Val Acc: 89.96%, Val F1: 0.6156\
+Epoch 5: Train Loss: 0.3506, Train Acc: 87.28%, Train F1: 0.6265, Val Loss: 0.2919, Val Acc: 90.44%, Val F1: 0.6537\
+Epoch 6: Train Loss: 0.3185, Train Acc: 88.26%, Train F1: 0.6643, Val Loss: 0.2892, Val Acc: 90.92%, Val F1: 0.6654\
+Epoch 7: Train Loss: 0.3008, Train Acc: 88.97%, Train F1: 0.6899, Val Loss: 0.2641, Val Acc: 91.42%, Val F1: 0.7117\
+Epoch 8: Train Loss: 0.2803, Train Acc: 89.89%, Train F1: 0.7182, Val Loss: 0.2605, Val Acc: 91.38%, Val F1: 0.6953\
+Epoch 9: Train Loss: 0.2657, Train Acc: 90.16%, Train F1: 0.7298, Val Loss: 0.2532, Val Acc: 91.62%, Val F1: 0.7181\
+Epoch 10: Train Loss: 0.2514, Train Acc: 90.70%, Train F1: 0.7408, Val Loss: 0.2461, Val Acc: 91.82%, Val F1: 0.7241
+\fs28 \
+\
+Test Loss: 0.2496, Test Accuracy: 91.64%, Test F1(true): 0.7574\
+\
+
+\fs20 Token: 'Questionnaire', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: 'motor', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'functional', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'classification', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'scale', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'B-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: '<UNK>', Predicted: 'B-O', Correct: 'I-LF'\
+Token: 'Measure', Predicted: 'B-O', Correct: 'I-LF'\
+
+\fs28 \cf4 \outl0\strokewidth0 \strokec4 \
+}
