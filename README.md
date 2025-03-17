@@ -1,4 +1,4 @@
-# NLP Coursework - Abbreviation and Longform Detection
+# Natural Language Processing - Abbreviation and Longform Detection
 
 ## Overview
 This project focuses on **sequence classification** for detecting abbreviations and their long forms in scientific text. The task follows the **BIO tagging format** and utilizes the **PLOD dataset**, sourced from PLOS journal articles. The project involves **Named Entity Recognition (NER)** and sequence labeling using various **machine learning and deep learning models**.
